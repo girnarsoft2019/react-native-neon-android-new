@@ -1,4 +1,4 @@
-# react-native-neon-android
+# react-native-neon-android-new
 A React Native package to take photos using custom camera or custom gallery in android.
 - (Supports on react-native >= 0.47.0)
 ## Installation
