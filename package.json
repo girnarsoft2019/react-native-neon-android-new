@@ -1,17 +1,17 @@
 {
   "name": "react-native-neon-android",
-  "version": "1.8.4",
+  "version": "1.0.0",
   "description": "React Native package to take photos using custom camera or custom gallery in android.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rajeev15june/react-native-neon-android.git"
+    "url": "https://github.com/girnarsoft2019/react-native-neon-android-new.git"
   },
   "nativePackage": true,
   "author": "Rajeev Kumar",
   "keywords": [
     "react-native",
-    "react-native-neon-android",
+    "react-native-neon-android-new",
     "react",
     "native",
     "image",
