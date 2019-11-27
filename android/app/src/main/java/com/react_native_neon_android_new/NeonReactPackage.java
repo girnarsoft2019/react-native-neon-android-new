@@ -1,4 +1,4 @@
-package com.react_native_neon_android;
+package com.react_native_neon_android_new;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.NativeModule;

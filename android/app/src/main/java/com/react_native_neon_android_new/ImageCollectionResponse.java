@@ -1,4 +1,4 @@
-package com.react_native_neon_android;
+package com.react_native_neon_android_new;
 
 import com.gaadi.neon.util.FileInfo;
 import java.util.List;
