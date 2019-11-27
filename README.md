@@ -3,23 +3,23 @@ A React Native package to take photos using custom camera or custom gallery in a
 - (Supports on react-native >= 0.47.0)
 ## Installation
 ```
-npm install react-native-neon-android
+npm install react-native-neon-android-new
 ```
 ## Linking
 ```
-react-native link
+react-native link react-native-neon-android-new
 ```
 ## Manual linking
 1. Add the following lines to `android/settings.gradle`:
 ```ruby
-include ':react-native-neon-android'
-project(':react-native-neon-android').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-neon-android/android/app')
+include ':react-native-neon-android-new'
+project(':react-native-neon-android-new').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-neon-android-new/android/app')
 ```
 2. Add the compile line to the dependencies in `android/app/build.gradle`:
 ```ruby
 dependencies {
     ---------------------
-    compile project(':react-native-neon-android')
+    compile project(':react-native-neon-android-new')
 }
 ```
 3. Add the following line to `android/app/src/main/java/MainApplication.java`:
@@ -56,7 +56,7 @@ android {
 ## Usage
 ### Import NeonAndroid
 ```ruby
-import NeonAndroid from 'react-native-neon-android';
+import NeonAndroid from 'react-native-neon-android-new';
 ```
 ### React methods
 1. ``` NeonAndroid.openNeutral(neonParamsJson, callback) ```
@@ -200,7 +200,7 @@ import {
     View,
     TouchableNativeFeedback, FlatList, Image, ScrollView
 } from 'react-native';
-import NeonAndroid from 'react-native-neon-android';
+import NeonAndroid from 'react-native-neon-android-new';
 import * as Constants from './Constants';
 
 let imageTagList = [
