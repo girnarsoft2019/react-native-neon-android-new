@@ -130,6 +130,7 @@ where response is the neonResponse json which you will get in callback, you can 
 | titleName | String | null | no | If passes then title of neutral screen will be changed accordingly |
 | showTagImage | boolean | false | no | If true then tag preview will show on camera screen |
 | showPreviewForEachImage | boolean | false | no | If true then preview will show on each photo click |
+| languageId | int | 0 | no | 1 for Bahasa |
 - fileInfo 
 ```
 {

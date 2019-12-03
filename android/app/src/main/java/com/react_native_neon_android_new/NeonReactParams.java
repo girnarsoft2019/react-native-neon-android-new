@@ -39,6 +39,7 @@ public class NeonReactParams {
     private boolean showTagImage;
     private String camScannerAPIKey;
     private boolean showPreviewForEachImage;
+    private int languageId;
 
     public int getCompressBy() {
         return compressBy;
@@ -302,5 +303,13 @@ public class NeonReactParams {
 
     public void setShowPreviewForEachImage(boolean showPreviewForEachImage) {
         this.showPreviewForEachImage = showPreviewForEachImage;
+    }
+
+    public int getLanguageId() {
+        return languageId;
+    }
+
+    public void setLanguageId(int languageId) {
+        this.languageId = languageId;
     }
 }
